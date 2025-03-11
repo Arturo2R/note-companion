@@ -8,7 +8,7 @@ import { auth } from "@clerk/nextjs/server";
 import sharp from 'sharp';
 import { FilePurpose } from "@mistralai/mistralai/models/components";
 
-export const maxDuration = 300; // 5 minutes
+export const maxDuration = 60; // 5 minutes
 
 // Define interfaces for OCR responses based on Mistral's API
 interface PageContent {
