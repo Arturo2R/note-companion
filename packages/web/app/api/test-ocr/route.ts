@@ -14,7 +14,7 @@ const ALLOWED_FILE_TYPES = {
   "image/webp": "image",
 };
 
-export const maxDuration = 300; // 5 minutes
+export const maxDuration = 60; // 5 minutes
 
 export async function POST(request: NextRequest) {
   try {
